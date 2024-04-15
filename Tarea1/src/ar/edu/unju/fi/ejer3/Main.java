@@ -6,14 +6,14 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in); 
+		Scanner valor = new Scanner(System.in); 
 		System.out.println("Ingrese un número: "); 
-		int numero = scanner.nextInt();
+		int numero = valor.nextInt();
         
         if (numero % 2 == 0) {
             System.out.println("El número es par.  " + (numero * 3));
         } else {
             System.out.println("El número es impar. " + (numero * 2));
 	}
-
+	}
 }
