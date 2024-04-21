@@ -89,7 +89,7 @@ public class Persona {
         if(mesNacimiento>1&&!(mesNacimiento==11&&dia>20)) {
         	return "Otoño";
         }else {
-        	return "Verano &1";
+        	return "Verano";
         }
     }
 }
