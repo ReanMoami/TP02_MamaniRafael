@@ -28,8 +28,9 @@ public class Main {
         }
         nombres[nombres.length - 1] = "";
         System.out.println("Array después de eliminar el elemento:");
+        System.out.print("| ");
         for (int k = 0; k < nombres.length; k++) {
-            System.out.println("Posición " + k + ": " + nombres[k]);
+            System.out.print(nombres[k] + " | ");
         }
 	}
 
