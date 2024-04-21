@@ -15,7 +15,11 @@ public class Persona {
         Calendar hoy = Calendar.getInstance();
         int añoActual = hoy.get(Calendar.YEAR);
         int añoNacimiento = fechaNacimiento.get(Calendar.YEAR);
-        return añoActual - añoNacimiento;
+        if (hoy.get(Calendar.MONTH)>=fechaNacimiento.get(Calendar.MONTH)&&hoy.get(Calendar.DAY_OF_MONTH)>=fechaNacimiento.get(Calendar.DAY_OF_MONTH)) {
+        	return añoActual - añoNacimiento;	
+        }else {
+        	return añoActual - añoNacimiento-1;	
+        }
     }
 
     public String obtenerSignoZodiaco() {
