@@ -2,7 +2,6 @@ package ar.edu.unju.fi.ejer12.main;
 
 import java.util.Calendar;
 import java.util.Scanner;
-
 import ar.edu.unju.fi.ejer12.model.Persona;
 
 public class Main {
